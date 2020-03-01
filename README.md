@@ -53,13 +53,11 @@ numpy==1.16.2
 
 ### 平台效果
 
-&emsp;&emsp;该平台标注的时候，标注内容大部分为任务头衔，任务关系，公司与人的关系。
+&emsp;&emsp;该平台标注的时候，标注内容大部分为人物头衔，人物关系，公司与人的关系等。
 
 &emsp;&emsp;当句子有只有一对三元组的时候，效果相对较好。
 
-&emsp;&emsp;`extract_example`目录中为抽取的效果，包括几本小说和一些新闻上的效果，关于这方面的演示，可以参考另一个项目：
-
-[https://github.com/percent4/knowledge_graph_demo](https://github.com/percent4/knowledge_graph_demo)
+&emsp;&emsp;`extract_example`目录中为抽取的效果，包括几本小说和一些新闻上的效果，关于这方面的演示，可以参考另一个项目：[https://github.com/percent4/knowledge_graph_demo](https://github.com/percent4/knowledge_graph_demo) 。
 
 &emsp;&emsp;一些句子也存在抽取出无用的三元组的情况，导致召回率偏高，这是因为本项目针对的是开放领域的三元组抽取，因此效果比不会有想象中的那么好，提升抽取效果的办法如下：
 
